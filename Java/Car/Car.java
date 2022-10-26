@@ -1,3 +1,6 @@
+package Car;
+import Account.*;
+
 public class Car {
 
     private Integer id;
@@ -11,9 +14,9 @@ public class Car {
         this.driver = driver;
     }
 
-    void printDataCar() {
+    protected void printDataCar() {
         if(passenger != null){
-            System.out.println("License: " + license + " Name Driver: " + driver.name + " Passengers: " + passenger);
+            System.out.println("License: " + license + " Name Driver: " + driver.getName() + " Passengers: " + passenger);
         }    
     }
 

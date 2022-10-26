@@ -1,3 +1,12 @@
+import java.util.ArrayList;
+import java.util.TreeMap;
+
+import Account.*;
+//import Car.*;
+import Car.CarBasic.*;
+import Car.CarAdvanced.*;
+
+
 class Main {
     public static void main(String[] args) {
         System.out.println("Hola, Maka!");
@@ -13,8 +22,8 @@ class Main {
         uberX.setPassenger(2);
         uberX.printDataCar();
 
-        UberVan uberVan = new UberVan("FGH345", new Account("Andres Herrera", "AND123"));
-        uberVan.setPassenger(6);
+        UberVan uberVan = new UberVan("RETVCF", new Account("Maria", "MA456"), new TreeMap<>(), new ArrayList<>());
+        uberVan.setPassenger(2);
         uberVan.printDataCar();
 
 

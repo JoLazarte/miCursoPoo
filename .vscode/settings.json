@@ -1,6 +1,10 @@
 {
     "python.autoComplete.extraPaths": ["./Python"],
 
-    "php.validate.executablePath": "PHP", 
+    "php.validate.executablePath": "PHP",
+    "python.analysis.extraPaths": [
+        "./Python"
+    ],
+    
 
 }
